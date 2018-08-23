@@ -3,11 +3,22 @@
 <head>
 	<title>Invie</title>
 	<link rel="stylesheet" type="text/css" href="css.css">
+	<style media="screen">
+	img#responsive {
+		display: none;
+	}
+	@media screen and (max-width: 768px) {
+		img#responsive{
+			display: block;
+		}
+	}
+</style>
 </head>
 <body>
-<img src="images/header.jpg">
-<img src="images/hero.jpg">
-<img src="images/acustica.jpg">
-<img src="images/clasica.jpg">
+	<img src="images/invie-responsive.png" id="responsive">
+	<img src="images/header.jpg">
+	<img src="images/hero.jpg">
+	<img src="images/acustica.jpg">
+	<img src="images/clasica.jpg">
 </body>
 </html>
